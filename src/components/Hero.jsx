@@ -1,7 +1,7 @@
 import React from "react";
 const Hero = ({ subTitle, title, text, img }) => {
   return (
-    <div className="relative w-full aspect-[1439/716] min-h-[500px] overflow-hidden">
+    <div className="relative w-full aspect-[1439/716] min-h-[500px] overflow-hidden pt-[60px]">
       <div className="absolute inset-0 bg-black/10 z-10" />
       <img
         src={img}
