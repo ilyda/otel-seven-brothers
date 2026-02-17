@@ -5,28 +5,28 @@ const AboutSection = () => {
       <section className="bg-[#efefef] py-20">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-14 items-center px-6">
         <img
-          src="https://www.seandosotel.com/wp-content/uploads/2021/08/IMG_1010-1024x683.jpg"
+          src="https://lh3.googleusercontent.com/p/AF1QipNkhbQ_melbCl4QJhKt-i2HNBUN5wyOw7Zs4zSo=s1360-w1360-h1020-rw"
           alt="hotel"
           className="w-full h-[420px] object-cover rounded-sm shadow"
         />
 
         <div className="text-gray-700 leading-relaxed text-[15px]">
           <h3 className="text-center md:text-left font-semibold tracking-widest text-gray-500 mb-6">
-            SEANDOS OTEL
+            SEVEN BROTHERS OTEL
           </h3>
           <p className="mb-4">
-            Otelimiz Kapadokya’nın en merkezi konumunda yer alan nezih bir oteldir.
-            Restoran, ücretsiz özel otopark, bar ve ortak salon ile konaklama
-            olanağı sunmaktadır.
+      Seven Brothers Oteli Nevşehir bölgesinde konuklarını 24 oda ile ağırlamakta olan 2 yıldızlı bir oteldir. 
+      Konukların otelde vakit geçirebilmesi için odalarda televizyon vardır. 
+
           </p>
           <p className="mb-4">
-            4 yıldızlı otelde konsiyerj ve vale park hizmetleri verilmektedir.
-            Tesiste 24 saat açık resepsiyon, oda servisi ve döviz bozdurma
-            hizmeti sunulmaktadır.
+              Otel odalarında internet ağı olarak wi-fi hizmeti sağlanmaktadır Odalarda radyo mevcuttur.
+               Otelde merkezi ısıtma mevcuttur.
+       İletişim sağlamak için otelde telefon vardır. 
           </p>
           <p>
-            Açık büfe veya Amerikan kahvaltısı servis edilmektedir. En yakın
-            havaalanına ücretli transfer hizmeti sağlanmaktadır.
+            Konuklara 24 saat açık oda servisi ve resepsiyon ile hizmet vermektedir.
+            Açık büfe veya Amerikan kahvaltısı servis edilmektedir.
           </p>
         </div>
       </div>

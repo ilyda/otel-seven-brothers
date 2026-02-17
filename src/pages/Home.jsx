@@ -11,9 +11,9 @@ const heroSlider1 = [
   },
     {
     subTitle: "SUMMER 2020",
-    title: "Kapadokyadaki eviniz",
+    title: "Zengin açık büfe kahvaltımız",
     text: "Misafirlerimizin güvenliği için üzerimize düşeni yapmaya devam ediyoruz.",
-     img: "https://www.seandosotel.com/wp-content/uploads/2021/08/IMG_0971-scaled.jpg",
+     img: "https://seven-brothers.centralanatoliahotels.com/data/Photos/OriginalPhoto/7430/743055/743055625/hotel-seven-brothers-nevsehir-photo-27.JPEG",
   },
 ];
 const Home = () => {

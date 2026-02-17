@@ -6,10 +6,10 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex justify-between p-4">
         <h1 className="text-2xl font-bold">Hotel</h1>
         <nav className="flex gap-6">
-          <Link to="/">Home</Link>
-             <Link to="/about">About</Link>
-          <Link to="/rooms">Rooms</Link>
-          <Link to="/contact">Contact</Link>
+          <Link to="/">Anasayfa</Link>
+             <Link to="/about">Hakkımızda</Link>
+          <Link to="/rooms">Odalarımız</Link>
+          <Link to="/contact">İletişim</Link>
         </nav>
       </div>
     </header>

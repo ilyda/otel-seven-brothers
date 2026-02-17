@@ -4,7 +4,7 @@ const PageBanner = ({title}) => {
   return (
      <div className="relative h-[260px] w-full overflow-hidden pt-[60px]">
       <img
-        src="https://imgkit.otelz.com/tr:w-1200,h-500,q-80,fo-auto/turkey/nevsehir/urgup/aldenhotelcappadocia39db1ec0.jpg"
+        src="https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1020,q_auto,w_2000/hotelier-images/27/3b/4dcc377645b20663635f986d0169dd58614bdd1dd3b7433684f92da6e5e3.jpeg"
         className="absolute inset-0 w-full h-full object-cover"
         alt="banner"
       />
