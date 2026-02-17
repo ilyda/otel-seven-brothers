@@ -8,6 +8,7 @@ import home_banner from './home-banner.png'
 import featured2 from './featured2.png'
 import featured from './featured.png'
 import featured1 from './featured1.png'
+import logo from './logo.png'
 import product_item from './product-item.jpg'
 import product_item1 from './product-item1.png'
 import product_item2 from './product-item2.png'
@@ -91,6 +92,7 @@ export const assets = {
     team_user7,
     team_user8,
        team_user9,
+       logo,
     none,
     hero1,
     hero2,

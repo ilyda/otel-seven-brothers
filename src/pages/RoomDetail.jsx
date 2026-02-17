@@ -44,10 +44,8 @@ const features = [
 ];
 
 export default function RoomDetail() {
-  const { type } = useParams();   // 🔥 URL'den type alıyoruz
- const room = roomData[type];   // 🔥 Type'a göre oda bilgisi
-  console.log(type)
-console.log(roomData[type])
+  const { type } = useParams();
+ const room = roomData[type];  
   const [index, setIndex] = useState(0);
 
   if (!room) return <div className="p-20 text-center">Oda bulunamadı</div>;
