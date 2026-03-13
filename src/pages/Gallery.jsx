@@ -18,6 +18,7 @@ export default function Gallery() {
     { src: assets.otel13, alt: "Oda 13" },
     { src: assets.otel14, alt: "Oda 14" }
   ];
+  
 
   return (
     <div>
