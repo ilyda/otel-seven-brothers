@@ -5,27 +5,28 @@ import {
   Coffee, Tv, Wifi, Wind, Refrigerator,
   Bell, Shirt, Lock, ShowerHead, Sparkles
 } from "lucide-react";
+import { assets } from "../assets/assets";
 
 const roomData = {
   Standart: {
     title: "Standart Oda",
     description: "Standart odamız konforlu ve ekonomik konaklama sunar.",
     images: [
-      "https://i.travelapi.com/hotels/23000000/22300000/22293000/22292914/c5fbfd12_b.jpg",
+     assets.otel12
     ],
   },
   Deluxe: {
     title: "Deluxe Oda",
     description: "Deluxe odamız geniş alan ve ekstra konfor sunar.",
     images: [
-      "https://i.travelapi.com/hotels/23000000/22300000/22293000/22292914/f3b7ff97_b.jpg",
+      assets.otel13
     ],
   },
   Suite: {
     title: "Suite Oda",
     description: "Suite odamız lüks ve ayrı yaşam alanı sunar.",
     images: [
-      "https://i.travelapi.com/lodging/23000000/22300000/22293000/22292914/13a7783f_z.jpg",
+      assets.otel14
     ],
   },
 };
@@ -61,7 +62,7 @@ export default function RoomDetail() {
         <div className="relative rounded-2xl overflow-hidden">
           <img
             src={room.images[index]}
-            className="w-full h-[480px] object-cover"
+            className="w-full h-[580px]  object-bottom"
             alt={room.title}
           />
 

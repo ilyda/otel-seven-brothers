@@ -12,10 +12,10 @@ const AboutSection = () => {
 
         <div className="text-gray-700 leading-relaxed text-[15px]">
           <h3 className="text-center md:text-left font-semibold tracking-widest text-gray-500 mb-6">
-            SEVEN BROTHERS OTEL
+           HOTEL SEVEN PARK
           </h3>
           <p className="mb-4">
-      Seven Brothers Oteli Nevşehir bölgesinde konuklarını 24 oda ile ağırlamakta olan 2 yıldızlı bir oteldir. 
+       HOTEL SEVEN PARK Nevşehir bölgesinde konuklarını 24 oda ile ağırlamakta olan 2 yıldızlı bir oteldir. 
       Konukların otelde vakit geçirebilmesi için odalarda televizyon vardır. 
 
           </p>

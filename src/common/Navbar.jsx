@@ -9,10 +9,8 @@ const Navbar = () => {
     <header className="fixed w-full bg-white shadow z-50">
       <div className="max-w-7xl mx-auto flex justify-between items-center p-4">
 
-<div className="text-center leading-none">
-  <h1 className="luxury-font text-navy text-3xl md:text-4xl tracking-[0.08em] text-[#3577a1]">
-    Seven Brothers
-  </h1>
+<div className="">
+ <img src="/logo.png"  className="max-w-[100px]"/>
 </div>
 
         {/* Desktop Menü */}
@@ -20,7 +18,11 @@ const Navbar = () => {
           <Link to="/">Anasayfa</Link>
           <Link to="/about">Hakkımızda</Link>
           <Link to="/rooms">Odalarımız</Link>
+           <Link to="/gallery">Galeri</Link>
+                   <Link to="/document">Belgeler</Link>
           <Link to="/contact">İletişim</Link>
+     
+          
         </nav>
 
         {/* Hamburger Button */}
@@ -38,6 +40,8 @@ const Navbar = () => {
             <Link onClick={() => setOpen(false)} to="/">Anasayfa</Link>
             <Link onClick={() => setOpen(false)} to="/about">Hakkımızda</Link>
             <Link onClick={() => setOpen(false)} to="/rooms">Odalarımız</Link>
+            <Link onClick={() => setOpen(false)} to="/gallery">Galeri</Link>
+            <Link onClick={() => setOpen(false)} to="/document">Belgeler</Link>
             <Link onClick={() => setOpen(false)} to="/contact">İletişim</Link>
           </nav>
         </div>

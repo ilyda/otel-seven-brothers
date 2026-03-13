@@ -14,7 +14,7 @@ const About = () => {
             Kapadokya’nın Kalbinde Lüks ve <br /> Büyüleyici Bir Konaklama Deneyimi
           </h2>
       <p className="text-gray-500 leading-8 mb-6">
-            Seven Brothers Oteli Nevşehir bölgesinde konuklarını 24 oda ile ağırlamakta olan 2 yıldızlı bir oteldir.
+             HOTEL SEVEN PARK Nevşehir bölgesinde konuklarını 24 oda ile ağırlamakta olan 2 yıldızlı bir oteldir.
             Konukların otelde vakit geçirebilmesi için odalarda televizyon vardır. Otel odalarında internet ağı olarak wi-fi hizmeti sağlanmaktadır Odalarda radyo mevcuttur.
             Otelde merkezi ısıtma mevcuttur. İletişim sağlamak için otelde telefon vardır. Konuklara 24 saat açık oda servisi ve resepsiyon ile hizmet vermektedir.
 

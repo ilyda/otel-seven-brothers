@@ -48,6 +48,21 @@ import team_user7 from "./team-1-user-7.jpg";
 import team_user8 from "./team-1-user-8.jpg";
 import team_user9 from "./team-1-user-9.jpg";
 import technology from "./technology.png";
+import otel from "./otel.jpeg";
+import otel1 from "./otel1.jpeg";
+import otel2 from "./otel2.jpeg";
+import otel3 from "./otel3.jpeg";
+import otel4 from "./otel4.jpeg";
+import otel5 from "./otel5.jpeg";
+import otel6 from "./otel6.jpeg";
+import otel7 from "./otel7.jpeg";
+import otel8 from "./otel8.jpeg";
+import otel9 from "./otel9.jpeg";
+import otel10 from "./otel10.jpeg";
+import otel11 from "./otel11.jpeg";
+import otel12 from "./otel12.jpeg";
+import otel13 from "./otel13.jpeg";
+import otel14 from "./otel14.jpeg";
 
 export const assets = {
     home_slider_1,
@@ -99,6 +114,21 @@ export const assets = {
     hero3,
     hero4,
     technology,
-    hero5
+    hero5,
+    otel5,
+    otel,
+    otel1,
+    otel2,
+    otel3,
+    otel4,
+     otel6,
+      otel7,
+       otel8,
+        otel9,
+         otel10,
+          otel11,
+           otel13,
+            otel12,
+             otel14
 }
 

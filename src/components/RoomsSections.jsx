@@ -1,9 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import { assets } from '../assets/assets';
 const rooms = [
-  { id: 1, name: "Tek Kişilik Oda", type: "Standart", img: "https://i.travelapi.com/hotels/23000000/22300000/22293000/22292914/c5fbfd12_b.jpg" },
-  { id: 2, name: "Standart Oda (3 Kişilik)", type: "Deluxe", img: "https://i.travelapi.com/hotels/23000000/22300000/22293000/22292914/f3b7ff97_b.jpg" },
-  { id: 3, name: "Classic Iki Ayrı Yataklı Oda", type: "Suite", img: "https://i.travelapi.com/lodging/23000000/22300000/22293000/22292914/13a7783f_z.jpg" },
+  { id: 1, name: "Tek Kişilik Oda", type: "Standart", img:assets.otel14 },
+  { id: 2, name: "Standart Oda (3 Kişilik)", type: "Deluxe", img:assets.otel13 },
+  { id: 3, name: "Classic Iki Ayrı Yataklı Oda", type: "Suite", img:assets.otel12 },
 ];
 const RoomsSections = () => {
     
@@ -18,7 +19,8 @@ const RoomsSections = () => {
         {rooms.map((room) => (
           <Link to={`/room-detail/${room.type}`} key={room.id} className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300">
             <div className="overflow-hidden">
-              <img src={room.img} alt={room.name} className="h-64 w-full object-cover hover:scale-105 transition duration-500" />
+              <img src={room.img} alt={room.name} className="h-64 w-full object-bottom hover:scale-105 transition duration-500" />
+     
             </div>
             <div className="p-6 text-center">
               <h3 className="text-lg font-medium">{room.name}</h3>

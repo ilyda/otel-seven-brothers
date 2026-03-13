@@ -1,0 +1,17 @@
+
+  [{
+    "title": "Turizm İşletme Belgesi",
+    "file": "/docs/turizm-belgesi.pdf"
+  },
+  {
+    "title": "Hijyen Sertifikası",
+    "file": "/docs/hijyen-sertifikasi.pdf"
+  },
+  {
+    "title": "Yangın Güvenliği Belgesi",
+    "file": "/docs/yangin-belgesi.pdf"
+  },
+  {
+    "title": "ISO Kalite Sertifikası",
+    "file": "/docs/iso-belgesi.pdf"
+  }]

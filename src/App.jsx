@@ -10,6 +10,8 @@ import RoomDetail from "./pages/RoomDetail";
 import WhatsappButton from "./components/WhasappButon";
 import { ToastContainer } from 'react-toastify';
 import ScrollToTop from "./components/ScrollToTop";
+import Gallery from "./pages/Gallery";
+import Documents from "./pages/Documents";
 function App() {
   return (
     <>
@@ -22,6 +24,9 @@ function App() {
         <Route path="/rooms" element={<Rooms />} />
          <Route path="/room-detail/:type" element={<RoomDetail />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/gallery" element={<Gallery />} />
+         <Route path="/document" element={<Documents />} />
+        
       </Routes>
 <WhatsappButton />
       <Footer />
