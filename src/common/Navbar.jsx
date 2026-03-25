@@ -19,7 +19,6 @@ const Navbar = () => {
           <Link to="/about">Hakkımızda</Link>
           <Link to="/rooms">Odalarımız</Link>
            <Link to="/gallery">Galeri</Link>
-                   <Link to="/document">Belgeler</Link>
           <Link to="/contact">İletişim</Link>
      
           
@@ -41,7 +40,6 @@ const Navbar = () => {
             <Link onClick={() => setOpen(false)} to="/about">Hakkımızda</Link>
             <Link onClick={() => setOpen(false)} to="/rooms">Odalarımız</Link>
             <Link onClick={() => setOpen(false)} to="/gallery">Galeri</Link>
-            <Link onClick={() => setOpen(false)} to="/document">Belgeler</Link>
             <Link onClick={() => setOpen(false)} to="/contact">İletişim</Link>
           </nav>
         </div>
