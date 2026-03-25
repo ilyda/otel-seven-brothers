@@ -48,7 +48,7 @@ const Footer = () => {
               <FaFacebook />
             </a>
             <a href="https://www.instagram.com/hotel_sevenbrothers/" className="hover:text-white transition">
-              <FaTwitter />
+            <FaInstagram />
             </a>
           </div>
         </div>
