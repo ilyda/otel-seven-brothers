@@ -1,62 +1,43 @@
 import React from "react";
 import { FaInstagram, FaFacebook, FaTwitter } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-gray-300 mt-10">
-      
-      <div className="max-w-6xl mx-auto px-6 py-10 grid md:grid-cols-3 gap-8">
-
-        {/* Logo / Açıklama */}
+    <footer className="bg-[#202a27] text-[#d3d8d3]">
+      <div className="mx-auto grid max-w-7xl gap-10 px-6 py-14 sm:px-8 md:grid-cols-3">
         <div>
-          <h2 className="text-2xl font-bold text-white mb-3">
-            Hotel Seven Park
-          </h2>
-          <p className="text-sm text-gray-400">
-            Konforlu ve unutulmaz bir konaklama deneyimi için sizi bekliyoruz.
+          <p className="mb-3 font-serif text-2xl font-semibold text-white">Hotel Seven Park</p>
+          <p className="max-w-xs text-sm leading-7 text-[#aeb8b1]">
+            Kapadokya’yı keşfederken konforlu ve sıcak bir konaklama için sizi bekliyoruz.
           </p>
         </div>
 
-        {/* Menü */}
         <div>
-          <h3 className="text-white font-semibold mb-3">Menü</h3>
-          <ul className="space-y-2">
-            <li>
-              <a href="/" className="hover:text-white transition">
-                Anasayfa
-              </a>
-            </li>
-            <li>
-              <a href="/otel.pdf" className="hover:text-white transition">
-                Sürdürülebilirlik
-              </a>
-            </li>
-            <li>
-              <a href="/contact" className="hover:text-white transition">
-                İletişim
-              </a>
-            </li>
+          <h3 className="mb-4 text-xs font-semibold uppercase tracking-[0.18em] text-white">Keşfedin</h3>
+          <ul className="space-y-3 text-sm text-[#aeb8b1]">
+            <li><Link to="/" className="transition hover:text-white">Ana sayfa</Link></li>
+            <li><Link to="/rooms" className="transition hover:text-white">Odalarımız</Link></li>
+            <li><Link to="/contact" className="transition hover:text-white">İletişim</Link></li>
+            <li><a href="/surdulenir.docx" className="transition hover:text-white">Sürdürülebilirlik</a></li>
           </ul>
         </div>
 
-        {/* Sosyal Medya */}
         <div>
-          <h3 className="text-white font-semibold mb-3">Bizi Takip Et</h3>
-          <div className="flex gap-4 text-xl">
-         
-            <a href="https://www.facebook.com/p/Hotel-Seven-Brothers-100063482442943/" className="hover:text-white transition">
-              <FaFacebook />
+          <h3 className="mb-4 text-xs font-semibold uppercase tracking-[0.18em] text-white">Bizi takip edin</h3>
+          <p className="mb-4 text-sm text-[#aeb8b1]">Nevşehir · Kapadokya</p>
+          <div className="flex gap-3 text-lg">
+            <a aria-label="Facebook" href="https://www.facebook.com/p/Hotel-Seven-Brothers-100063482442943/" className="rounded-full border border-white/15 p-3 transition hover:border-white/50 hover:text-white">
+              <FaFacebook aria-hidden="true" />
             </a>
-            <a href="https://www.instagram.com/hotel_sevenbrothers/" className="hover:text-white transition">
-            <FaInstagram />
+            <a aria-label="Instagram" href="https://www.instagram.com/hotel_sevenbrothers/" className="rounded-full border border-white/15 p-3 transition hover:border-white/50 hover:text-white">
+              <FaInstagram aria-hidden="true" />
             </a>
           </div>
         </div>
-
       </div>
 
-      {/* Alt Kısım */}
-      <div className="border-t border-gray-700 text-center py-4 text-sm text-gray-500">
+      <div className="border-t border-white/10 px-6 py-5 text-center text-xs text-[#89968e]">
         © {new Date().getFullYear()} Hotel Seven Park. Tüm hakları saklıdır.
       </div>
     </footer>

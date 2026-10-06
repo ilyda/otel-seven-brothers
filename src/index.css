@@ -1,37 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
 @import "tailwindcss";
 
-*{
-      font-family: "Montserrat", sans-serif;
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #fffefa;
+  color: #26332f;
+  font-family: "DM Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.hotel-photo {
+  filter: brightness(1.06) contrast(1.04) saturate(1.06);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Playfair Display", serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 .swiper-pagination {
-  bottom: 30px !important;
+  bottom: 28px !important;
 }
+
 @media (max-width: 640px) {
   .swiper-pagination {
     display: none !important;
   }
 }
 
-
 .swiper-pagination-bullet {
-  width: 62px;
-  height: 10px;
-  border-radius: 0;
-  opacity: 0.6;
+  width: 34px;
+  height: 3px;
+  border-radius: 999px;
+  opacity: 0.55;
   background-color: white;
-  margin: 0 1px !important;
+  margin: 0 4px !important;
 }
 
 .swiper-pagination-bullet-active {
   opacity: 1;
 }
-.swiper-button-next,.swiper-button-prev{
-    color:white;
-    font-size: 24px;
 
-   
+.swiper-button-next,
+.swiper-button-prev {
+  color: white;
+  transition: opacity 180ms ease;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  opacity: 0.75;
 }
 
 .swiper-thumb-slide {
@@ -47,4 +79,13 @@
   opacity: 1;
 }
 
-
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

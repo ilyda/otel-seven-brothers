@@ -6,15 +6,15 @@ import GoogleReviews from '../components/GoogleReviews';
 import { assets } from '../assets/assets';
 const heroSlider1 = [
   {
-    subTitle: "SUMMER 2019",
-    title: "Kapadokyadaki eviniz",
-    text: "Misafirlerimizin güvenliği için üzerimize düşeni yapmaya devam ediyoruz.",
+    subTitle: "NEVŞEHİR · KAPADOKYA",
+    title: "Kapadokya’da kendinizi evinizde hissedin",
+    text: "Şehrin merkezinde, Kapadokya’nın eşsiz güzelliklerini keşfetmeniz için sıcak ve konforlu bir konaklama.",
      img: assets.otel2
   },
     {
-    subTitle: "SUMMER 2020",
-    title: "Zengin açık büfe kahvaltımız",
-    text: "Misafirlerimizin güvenliği için üzerimize düşeni yapmaya devam ediyoruz.",
+    subTitle: "GÜNE GÜZEL BİR BAŞLANGIÇ",
+    title: "Küçük anlarda saklı büyük keyif",
+    text: "Dinlendirici bir konaklamanın ve özenle hazırlanan kahvaltının tadını çıkarın.",
      img: assets.otel
   },
 ];

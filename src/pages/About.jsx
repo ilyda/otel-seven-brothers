@@ -37,9 +37,9 @@ const About = () => {
 
         <div>
           <img
-            src="https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1020,q_auto,w_2000/hotelier-images/ce/5b/118ba766d7735b1aef1be9c00c35b5228a4aa78f0de53e86b1156a62fb0c.jpeg"
+            src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QMPkgNoJ_MiV4883iJz-Mg7El1axYJtqUSMaTCxSE4nmZcLJbCe2pfwPFpZT4hPnAXiEvEIOes6-ktMt7rhaqTXmiLPWkrtR3VS5EeWBum0bHtubu0TNXMwAM7I5ealNr7qGYHWLN8zEM=s1360-w1360-h1020-rw"
             alt="hotel"
-            className="w-full h-[520px] object-cover"
+            className="hotel-photo h-auto w-full"
           />
         </div>
       </div>

@@ -59,10 +59,10 @@ export default function RoomDetail() {
       <PageBanner title={room.title} />
 
       <div className="max-w-6xl mx-auto px-6 mt-16">
-        <div className="relative rounded-2xl overflow-hidden">
+        <div className="relative flex justify-center overflow-hidden rounded-2xl bg-[#f3f1ed]">
           <img
             src={room.images[index]}
-            className="w-full h-[580px]  object-bottom"
+            className="hotel-photo max-h-[78vh] w-auto max-w-full object-contain"
             alt={room.title}
           />
 
